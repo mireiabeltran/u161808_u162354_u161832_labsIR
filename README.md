@@ -12,7 +12,7 @@ It will be divided in four parts:
   3) Evaluation 
   4) User Interface and Web analytics
 
-## SETUP
+### SETUP Notes
 Installation of 'nltk' and 'regex' module is needed. 
 
 ## 1) TEXT PROCESSING
