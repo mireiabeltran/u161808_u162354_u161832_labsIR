@@ -26,13 +26,3 @@ For example, from this text:
 We obtain: 
 
 ![image](https://user-images.githubusercontent.com/93143576/139066915-7974d92d-acf6-4887-9c00-b2d6df9b0fc7.png)
-
-
-- Stem terms
-- Remove stop words
-- Remove punctuation 
-- Remove links
-- Remove emojis
-- Transform all text to lowercase
-- Tokenize the text to get a list of terms
-
