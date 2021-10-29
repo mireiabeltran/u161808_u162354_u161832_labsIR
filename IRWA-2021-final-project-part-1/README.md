@@ -15,7 +15,8 @@ It will be divided in four parts:
 
 ### SETUP Notes
 In order to run the code, the installation of 'nltk' and 'regex' module is needed and 
-the file 'dataset_tweets_WHO.txt' must be placed in this folder.
+the file 'dataset_tweets_WHO.txt' must be placed in this folder. After this, the code
+is ready to run.
 
 ## 1) TEXT PROCESSING
 
