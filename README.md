@@ -17,8 +17,7 @@ Installation of 'nltk' and 'regex' module is needed.
 
 ## 1) TEXT PROCESSING
 
-In the first part of the project, it has pre-processed the document. To do so it have been removed stop-words and
-punctuation and tokenization and stemming has been performed. 
+In the first part of the project, it has pre-processed the document. To do so we have stemmed terms, removed stop-words, punctuation, links and emojis, we have performed a tokenization in order to get a list of the terms and we have transformed all text to lowercase. As for the hashtags, we decided not to remove them since it may be interesting to identify them and treat them separately later.
 
 For example, from this text: 
 
@@ -27,4 +26,13 @@ For example, from this text:
 We obtain: 
 
 ![image](https://user-images.githubusercontent.com/93143576/139066915-7974d92d-acf6-4887-9c00-b2d6df9b0fc7.png)
+
+
+- Stem terms
+- Remove stop words
+- Remove punctuation 
+- Remove links
+- Remove emojis
+- Transform all text to lowercase
+- Tokenize the text to get a list of terms
 
