@@ -23,6 +23,9 @@ When runing the evaluation part, the following installation is needed:
 - !pip install gensim==3.0
 - !pip install tsne
 
+It might be the case that when doing a "run all" in the python notebook, the following import does not work: from gensim.models.word2vec import Word2Vec. To solve it it is 
+just needed to run again this cell and it will work without any problem.
+
 ## 1) TEXT PROCESSING
 
 In the first part of the project, it has been pre-processed the document. To do so we have stemmed terms, 
