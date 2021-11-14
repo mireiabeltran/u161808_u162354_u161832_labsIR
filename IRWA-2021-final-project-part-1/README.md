@@ -36,7 +36,7 @@ For example, from this text:
 
 We obtain: 
 
-![image](https://user-images.githubusercontent.com/93143576/139066915-7974d92d-acf6-4887-9c00-b2d6df9b0fc7.png | width=100)
+![image](https://user-images.githubusercontent.com/93143576/139066915-7974d92d-acf6-4887-9c00-b2d6df9b0fc7.png)
 
 ## 2)  INDEXING and EVALUATION
 
