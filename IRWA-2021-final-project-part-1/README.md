@@ -49,11 +49,11 @@ For example, with the query 'global pandemic', we get the next:
 ![image](https://user-images.githubusercontent.com/93143576/141695035-b97af30a-3bd7-4aa6-94d1-def5195c5cc4.png)
 
 In order to evaluate the algorithm, the following evaluation techniques have been used and commented:
-    ▪ Precision@K (P@K)
-    ▪ Average Precision@K (P@K)
-    ▪ Mean Average Precision (MAP)
-    ▪ Mean Reciprocal Rank (MRR)
-    ▪ Normalized Discounted Cumulative Gain (NDCG)
+- Precision@K (P@K)
+- Average Precision@K (P@K)
+- Mean Average Precision (MAP)
+- Mean Reciprocal Rank (MRR)
+- Normalized Discounted Cumulative Gain (NDCG)
 
 Finally, a Word2Vec model has been trained and the t-sne algorithm has been used to be able to represent the tweets in a
 two-dimensional scatter plot. 
