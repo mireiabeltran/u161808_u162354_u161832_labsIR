@@ -32,7 +32,7 @@ to remove them since it may be interesting to identify them and treat them separ
 
 For example, from this text: 
 
-![image](https://user-images.githubusercontent.com/93143576/139066531-8a7efff6-141c-4e33-9f76-e8e28c8373e8.png)
+![image](https://user-images.githubusercontent.com/93143576/139066531-8a7efff6-141c-4e33-9f76-e8e28c8373e8.png) | width=100
 
 We obtain: 
 
