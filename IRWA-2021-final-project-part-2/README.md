@@ -9,8 +9,8 @@ Organization (@WHO).
 
 It will be divided in four parts:
   1) Text processing
-  2) Indexing and ranking
-  3) Evaluation 
+  2) Indexing and evaluation
+  3) Ranking 
   4) User Interface and Web analytics
 
 ### SETUP Notes
@@ -61,4 +61,7 @@ In order to evaluate the algorithm, the following evaluation techniques have bee
 Finally, a Word2Vec model has been trained and the t-sne algorithm has been used to be able to represent the tweets in a
 two-dimensional scatter plot. 
 
+# 3) RANKING
+
+In the third part, it has been carried out the ranking score. In three ways: tf-idf, tf + number of retweets and favourites, and word2vec. 
 
