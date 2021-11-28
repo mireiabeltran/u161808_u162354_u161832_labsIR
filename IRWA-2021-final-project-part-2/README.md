@@ -64,9 +64,9 @@ two-dimensional scatter plot.
 # 3) RANKING
 
 In the third part, it has been carried out the ranking score. In three ways: tf-idf, tf + number of retweets(75% importance) and favourites(25% importance), and word2vec.
-In all the approaches cosine similarity was applied. 
+In all the approaches cosine similarity was applied somehow. 
 
-When using the word2vec representation, the cosine similarity was applied in the following way: A query2vec was created for each query and then, for each tweet that contains the query words the cosine similarity was computed doing the np.dot between the tweet vector and the query vector. In this part relevance was also implemented in order to give more importance to the tweets with more likes and retweets. 
+When using the word2vec representation, the cosine similarity was applied in the following way: A query2vec was created for each query and then, for each tweet that contains the query words the cosine similarity was computed doing the np.dot between the tweet vector and the query vector. However, instead of applying a pure cosine similarity by normalizing the cosine similarity, the formula of favourites and retweets was used to rank the tweets. In this part relevance was also implemented in order to give more importance to the tweets with more likes and retweets. 
 
 As result, we obtained that the second approach had sense and the tweets where ranked according to the afforementioned criteria. On the other hand, the rankings of the first and the third approaches return similar tweet ids. 
 
