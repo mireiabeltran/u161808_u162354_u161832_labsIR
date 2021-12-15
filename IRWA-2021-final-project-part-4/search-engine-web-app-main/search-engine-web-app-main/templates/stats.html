@@ -1,0 +1,60 @@
+{% extends "base.html" %}
+{% block page_title %}{{ page_title }}{% endblock %}
+{% block content %}
+    Click stats...
+    <hr>
+    {% for id in times %}
+        <div class="pb-3">
+            <div class="">
+                <h6>Tweet id: {{ id }}</h6>
+            </div>
+            <div class="">
+                <h6>Elapsed time between query and click (seconds): {{ times[id] }}</h6>
+            </div>
+            <div class="">
+                <h6>Clicks: {{ clicks[id] }}</h6>
+            </div>
+        </div>
+
+    {% endfor %}
+    <hr>
+    Query stats...
+    <hr>
+    {% for q in query %}
+        <div class="pb-3">
+            <div class="">
+                <h6>Date: {{ q.date }}</h6>
+            </div>
+            <div class="">
+                <h6>Query terms: {{ q.terms }}</h6>
+            </div>
+            <div class="">
+                <h6>Number of query terms: {{ q.nterms }}</h6>
+            </div>
+        </div>
+    {% endfor %}
+
+    
+        
+
+    </div>
+    <hr>
+    User stats...
+    <hr>
+    <div class="pb-3">
+        <div class="">
+            <h6>Ip: {{ ip }}</h6>
+        </div>
+        <div class="">
+            <h6>Browser: {{ browser }}</h6>
+        </div>
+        <div class="">
+            <h6>Platform: {{ platform }}</h6>
+        </div>
+    </div>
+    
+{% endblock %}
+
+
+</body>
+</html>
